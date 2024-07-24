@@ -21,6 +21,3 @@ jobs:
     - name: Run tests
       run: |
         pytest
-    - name: Print secret
-      run: |
-        cat secrets.txt
